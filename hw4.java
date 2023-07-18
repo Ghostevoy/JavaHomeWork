@@ -49,8 +49,7 @@ public class hw4 {
                     else {
                         for (i = 0; i < secName.size(); i++) {
                             System.out.printf("%s %s.%s. %s %s\n", secName.get(i),
-                                    firstName.get(i).toUpperCase().charAt(0),
-                                    patr.get(i).toUpperCase().charAt(0), age.get(i), gend.get(i));
+                                    firstName.get(i), patr.get(i), age.get(i), gend.get(i));
                         }
                     }
                     break;
@@ -64,47 +63,5 @@ public class hw4 {
             }
         }
 
-        // if (i == 0)
-        // System.out.println("Информации нет");
-        // else {
-        // System.out.println("Введенная информация: ");
-        // for (i = 1; i < secName.size(); i++) {
-        // System.out.println("Информация о " + i + " человеке: " + secName.get(i - 1) +
-        // " " + firstName.get(i - 1)
-        // + " " + patr.get(i - 1) + ", " + age.get(i - 1) + ", " + gend.get(i - 1) +
-        // ".");
-        // }
-        // System.out.println("Хотите выйти из программы или посмотреть список,
-        // отсортированный по возрасту?");
-        // System.out.println("Введите N, если хотите выйти");
-        // System.out.println("Введите Y, если хотите посмотреть список, отсортированный
-        // по возрасту?");
-        // String choice = scanner.nextLine();
-        // while (choice.equals("N") || choice.equals("n")) {
-        // System.out.println("Выход из программы");
-        // break;
-        // }
-        // if (choice.equals("Y") || choice.equals("y")) {
-        // for (i = 0; i < age.size() - 1; i++) {
-        // for (int j = i + 1; j < age.size(); j++) {
-        // if (Integer.parseInt(age.get(j)) < Integer.parseInt(age.get(i))) {
-        // Collections.swap(age, i, j);
-        // Collections.swap(secName, i, j);
-        // Collections.swap(firstName, i, j);
-        // Collections.swap(patr, i, j);
-        // Collections.swap(gend, i, j);
-        // }
-        // }
-        // }
-        // System.out.println("Введенная информация, отсортированная по возрасту: ");
-        // for (i = 1; i < secName.size(); i++) {
-        // System.out.println(
-        // "Информация о " + i + " человеке: " + secName.get(i - 1) + " " +
-        // firstName.get(i - 1) + " "
-        // + patr.get(i - 1) + ", " + age.get(i - 1) + ", " + gend.get(i - 1) + ".");
-        // }
-        // scanner.close();
-        // }
-        // }
     }
 }
